@@ -1,0 +1,545 @@
+@font-face {
+    font-family : 'Enchanted Land';
+    src:url('../polices/Enchanted Land.otf');
+}
+@font-face{
+    font-family: 'KeepCalm';
+	src: url('../polices/KeepCalm-Medium.ttf');
+}
+
+#page_accueil {
+    background : url('../images/blue6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding : 2em;
+    border : maroon solid 4px;
+    width : 1200px;
+    margin : 0 auto;
+    
+}
+
+#page_accueil img {
+    width : 5em;
+    height : 5em;
+    
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+header h1 {
+    text-align : center;
+    font-size : 3em;
+    border : maroon solid 2px;
+    margin : 1.5em 4em 1.5em 4em;
+    padding : 1em;
+    color : maroon;
+}
+
+header p {
+    font-weight : bold;
+    font-family : 'KeepCalm';
+    font-size : 1em;
+}
+
+nav a {
+    
+    color :maroon;
+    font-size : 20px;
+}
+
+#texte_accueil p {
+    font-weight : bold;
+}
+
+
+/*------css BXL---------------------------------*/
+
+#Bruxelles {
+    background:url('../images/fond_jaune.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border : maroon solid 4px;
+    padding : 1em;
+    width : 1200px;
+    margin : 0 auto;
+    
+}
+
+#nav_bxl  {
+   text-align : center;
+   padding-top : 4em; 
+   margin-bottom : 0;
+}
+
+#nav_bxl a {
+    padding : 3em;
+    font-size:25px;
+}
+
+
+#titreBXL h1{
+    font-size: 5.5em;
+    font-family : 'Enchanted Land';
+    margin-left : 220px;
+    margin-top :2em ;
+    color : maroon;
+
+}
+
+#titreBXL img {
+    width :100px ;
+    height :100px;
+    border-radius:80px;
+    overflow : hidden;
+    border : 2px solid black;
+}  
+
+#BXL {
+    display:flex;
+    margin-top: 2em;
+}
+
+#BXL p {
+    font-family : 'Papyrus';
+}
+
+#histoireBXL {
+    flex : 3;
+}
+
+#histoireBXL h2 {
+    font-family: 'Enchanted Land';
+    font-size : 40px;
+    color : maroon;
+}
+
+aside {
+    flex : 1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #1c1a19;
+    padding : 10px;
+    background-color: #FFA07A;
+    
+}
+
+aside h2 {
+    text-align: center;
+    color:#FFFAFA;
+
+}
+
+aside h5 {
+    text-align: center;
+    font-size:0.9em;
+    
+}
+
+#photoBelvue {
+    text-align:center;
+}
+
+#photoBelvue img{
+    border:2px solid #FFFAFA;
+}
+
+#photoMuseeDeVille {
+    text-align: center;
+}
+
+#photoMuseeDeVille img {
+    border : 2px solid #FFFAFA;
+}
+
+aside li {
+    font-size : 20px;
+}
+
+#RueDuMarais img {
+    margin-top : 20px;
+}
+
+#histoireBXL, aside {
+    text-align : justify;
+    margin-right:20px;
+}
+
+#experiencebrussels {
+    display:flex;
+    margin-top:10px;
+}
+
+#socialMusee {
+    flex: 1;
+    width: 40%;
+
+}
+
+#socialMusee img {
+    width : 100px;
+    height : 100px;
+    margin-right : 20px;
+    padding : 5px;
+}
+
+#photosMusee {
+    flex:1;
+    display:flex;
+    width : 40%;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left : 65px;
+    
+}
+#photo1 img{
+    flex:1;
+    width : 140px;
+    height : 140px;
+    margin : 2px;
+    
+    
+}
+
+#photo2 img{
+    flex:1;
+    width : 140px;
+    height : 140px;
+    margin : 2px;
+}
+
+#photo3 img{
+    flex:1;
+    width : 140px;
+    height : 140px;
+    margin : 2px;
+}
+
+
+
+#infoMusee {
+    flex:1;
+    width:18%;
+    font-size : 20px;
+}
+
+@media screen and (max-width:1000px){
+    #nav_bxl {
+        flex-direction : column;
+    }
+    #nav_bxl a {
+        flex-direction : column;
+    }
+    #titreBXL {
+        flex-direction : column;
+    }
+    #histoireBXL {
+        flex-direction : column;
+    }
+    aside {
+        flex-direction : column;
+    }
+    #experiencebrussels {
+        flex-direction : column;
+    }
+}
+/*-----------css entreprise----------*/
+#page_entreprise {
+    background-color: #FFFAFA;
+    border : maroon solid 4px;
+    width : 1200px;
+    margin : 0 auto;
+}
+
+#page_entreprise a {
+    color : black;
+    font-size: 25px;
+    
+}
+
+#nav_presentation {
+    text-align : center;
+   padding-top : 4em; 
+}
+
+#nav_presentation a {
+    padding : 20px;
+}
+
+#titre_entreprise h1 {
+    text-align : center;
+    margin-top : 50px;
+    margin-bottom : 50px;
+}
+
+#demarches {
+    
+    text-align : justify;
+    padding : 20px;
+    background-color: beige;
+    border : bisque solid 4px;
+    margin : 0 20px;
+}
+
+#developpeurs em {
+    color : maroon;
+}
+
+#johann {
+    text-align : center;
+    margin-bottom : 50px;
+    
+}
+
+
+#johann h2 {
+    font-family: 'KeepCalm';
+    font-size: 30px;
+}
+
+#johann p {
+    text-align : right;
+}
+
+
+#johann img {
+    overflow: hidden;
+    border-radius: 80px;
+    width : 140px;
+    height : 140px;
+    float : right;
+    margin-right : 100px;
+   
+}
+
+#info_johann {
+    display : flex;
+    margin-top : 50px;
+}
+
+#activites_johann {
+    flex : 1;
+}
+
+#activites_johann h3 {
+    color : maroon;
+    font-family: 'KeepCalm';
+    font-size : 25px;
+    padding-left: 150px;
+}
+
+#activites_johann a {
+    font-size : 1em;
+}
+
+#parcours_johann {
+    flex : 1;
+}
+
+#parcours_johann h3 {
+    color : maroon;
+    font-family:'KeepCalm';
+    font-size : 25px;
+    padding-left: 150px;
+}
+
+#christophe {
+    text-align : center;
+    margin-bottom : 50px;
+}
+
+#christophe h2 {
+    font-family : 'KeepCalm';
+    font-size : 30px;
+}
+
+#christophe p {
+    text-align: right;
+}
+
+#christophe img {    
+    overflow: hidden;
+    border-radius: 80px;
+    width : 140px;
+    height : 140px;
+    float : right;
+    margin-right : 100px;
+}
+
+#info_christophe {
+    display : flex;
+    margin-top : 50px;
+}
+
+#activites_christophe {
+    flex : 1;
+}
+
+#activites_christophe a {
+    font-size : 1em;
+    color : blue;
+}
+
+#activites_christophe h3 {
+    color : maroon;
+    font-family:'KeepCalm';
+    font-size : 25px;
+    padding-left: 150px;
+}
+
+#parcours_christophe {
+    flex: 1;
+}
+
+#parcours_christophe h3 {
+    color : maroon;
+    font-family:'KeepCalm';
+    font-size : 25px;
+    padding-left: 150px;
+}
+
+#parcours_christophe a {
+    font-size : 1em;
+    color : blue;
+}
+
+@media screen and (max-width : 1000px) {
+    #nav_presentation {
+        flex-direction : column;
+    }
+    #titre_entreprise {
+        flex-direction : column;
+    }
+    #demarches {
+        flex-direction : column;
+    }
+    #developpeurs{
+        flex-direction : column;
+    }
+}
+/*-------------css interview Johann---------*/
+#page_johann {
+    
+    background : url('../images/blue6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    padding : 20px;
+    border : maroon solid 2px;
+    width : 1200px;
+    margin : 0 auto;
+}
+
+#nav_johann {
+    text-align : center;
+}
+
+#nav_johann a {
+    font-size : 20px;
+    padding : 20px;
+    color : maroon
+}
+
+@media screen and ( max-width : 1000px) {
+    #nav_johann {
+        flex-direction : column;
+    }
+}
+
+#interview_johann h1 {
+    text-align : center;
+    font-size : 30px;
+    font-family: 'KeepCalm';
+    margin-top : 2em;
+    margin-bottom : 2em;
+}
+
+#interviewjohann em {
+    color: maroon;
+    text-decoration: underline;
+    font-weight : bold;
+}
+
+/*------------css interview christophe----*/
+#page_christophe {
+    
+    background : url('../images/blue6.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+    text-align : justify;
+    padding : 20px;
+    border : maroon solid 2px;
+    width : 1200px;
+    margin : 0 auto;
+}
+
+#nav_christophe {
+    text-align : center;
+}
+
+#nav_christophe a {
+    
+    font-size : 20px;
+    padding : 20px;
+    color : maroon
+}
+
+#interview h1 {
+    text-align : center;
+    font-size : 30px;
+    font-family: 'KeepCalm';
+    margin-top : 2em;
+    margin-bottom : 2em;
+}
+
+#interview_christophe em {
+    color : maroon;
+    text-decoration : underline;
+    font-weight : bold;
+}
+
+.reponse  {
+    text-indent: 15px;
+}
+/*--------css conclusion-------*/
+#nav_conclusion a{
+    padding: 3em;
+}
+
+#nav_conclusion {
+    text-align : center;
+    margin-bottom : 5em;
+    padding-top : 3em;
+}
+#conclusion h1 {
+    text-align : center;
+    font-size : 3.5em;
+    color : maroon;
+}
+
+#page_conclusion {
+    border : maroon solid 4px;
+    padding : 1em;
+    background : url('../images/blue6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width : 1200px;
+    margin : 0 auto;
+}
+
+#page_conclusion p {
+    font-weight: bold;
+}
+
+#photo_conclusion {
+    text-align : center;
+    padding-bottom : 7.5em;
+    margin-top : 5em;
+}
+
+#photo_conclusion img {
+    
+    margin : 4em;
+}
+
